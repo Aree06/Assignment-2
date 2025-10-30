@@ -1,30 +1,30 @@
-<form class="row g-3">
-    <div class="col-md-4">
-        <label for="validationServer01" class="form-label">Enter First Name:</label>
-        <input type="text" class="form-control is-valid" id="validationServer01" required>
-    </div>
-
-    <div class="col-md-4">
-        <label for="validationServer02" class="form-label">Enter Last Name:</label>
-        <input type="text" class="form-control is-valid" id="validationServer02" required>
-    </div>
-
-    <div class="col-md-4">
-        <label for="validationServer03" class="form-label">Enter Email:</label>
-        <input type="text" class="form-control is-valid" id="validationServer03" required>
-    </div>
-
-    <div class="col-md-4">
-        <label for="validationServer04" class="form-label">Enter Phone Number (optional):</label>
-        <input type="text" class="form-control is-valid" id="validationServer04">
-    </div>
-
-    <div class="mb-3">
-         <label for="exampleFormControlTextarea1" class="form-label">Any Feedback:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-
-    <div class="col-12">
-        <button class="btn btn-primary" type="submit">Submit form</button>
-    </div>
-</form>
+<h2> Contact Me</h2> <!-- Second header for the Contact Me section -->
+<form action="mailto:areeba.alam@ontariotechu.net?subject=Feedback on website" method="post" enctype="text/plain"> <!-- Form to send email -->
+            <p> <!-- Paragraph to group form elements -->
+                <label for="Fname">Your First Name:</label> <!-- Label for the first name input field -->
+                <input type="text" id="Fname" name="Fname" size="40" placeholder="Enter your first Name" required> <!-- Input field for first name -->
+            </p>
+            <p> 
+                <label for="Lname">Your Last Name:</label> <!-- Label for the last name input field -->
+                <input type="text" id="Lname" name="Lname" size="40" placeholder="Enter your Last Name" required>  <!-- Input field for last name -->
+            </p>
+            <p>
+                <label for="email">Your Email:</label> <!-- Label for the email input field -->
+                <input type="email" id="email" name="email" size="40" placeholder="Enter your Email" required> <!-- Input field for email -->
+            </p>
+            <p>
+                <label for="phone">Your Phone Number (no - or +):</label> <!-- Label for the phone number input field -->
+                <input type="tel" id="phone" name="phone" size="40" placeholder="Enter your Phone Number" required> <!-- Input field for phone number -->
+            </p>
+            <p>
+                <label for="feedback">Comments:</label> <!-- Label for the feedback textarea -->
+                <textarea id="feedback" name="feedback" cols="40" rows="8" placeholder="Any Questions, comments or query..."></textarea> <!-- Textarea for user comments -->
+            </p>
+            <p>
+                <input type="checkbox" id="maillist" name="maillist"> <!-- Checkbox for mailing list subscription -->
+                <label for="maillist"> Click here if you’re happy</label> <!-- Label for the checkbox -->
+                <br> <!-- Line break for better layout -->
+                <input type="submit" value="Submit"> <!-- Submit button to send the form -->
+                <input type="reset" value="Reset"> <!-- Reset button to clear the form -->
+            </p>
+        </form>
