@@ -1,4 +1,5 @@
-
+<%- include partials/header  %>
+<%- include partials/main_nav %>
 <h4> About Me: Video</h4>
             <video  class="vid" id="video" controls width="520" height="300" autoplay muted loop poster="image.png" preload="auto"> <!-- Video element to embed a video in the web page -->
                 <source src="Asset/video/AboutMe.mp4" type="video/mp4"> <!-- Source of the video file in MP4 format -->
@@ -6,3 +7,5 @@
             <br>
             <!--Add functionality to this button we need to write function in javascript-->
             <button class="button2" onclick="playPause()">Play or pause the video</button>
+    
+<%- include partials/footer %>

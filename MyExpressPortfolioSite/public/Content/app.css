@@ -1,8 +1,30 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "times new roman", sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+.carousel .box {
+  max-width: 900px;    /* wider box */
+  margin: 0 auto;      /* center it */
+  text-align: center;  
+  padding: 60px 40px;  /* more space inside */
+  font-size: 16px;    /* slightly larger text */
+}
+
+.carousel h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.carousel p {
+  margin-top: auto ;
+}
+
+
+.clear
+{
+    clear: both;
 }
