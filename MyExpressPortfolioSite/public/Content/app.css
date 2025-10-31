@@ -1,12 +1,52 @@
 body {
   padding: 50px;
   font: 16px "times new roman", sans-serif;
+  background-color: #f0d9aa;
 }
 
 a {
   color: #00B7FF;
 }
-.carousel .box {
+
+.homeTitle
+{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 210px;
+}
+
+.homepage
+{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card-title
+{
+  font-weight: bold;
+}
+
+.card-body
+{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.carousel 
+{
+  background-color: #ecbc5e;; 
+}
+
+.carousel .box
+{
+  color:black
+}
+
+.carousel .box 
+{
   max-width: 900px;    /* wider box */
   margin: 0 auto;      /* center it */
   text-align: center;  
@@ -14,22 +54,66 @@ a {
   font-size: 18px;    /* slightly larger text */
 }
 
-.carousel h3 {
+.carousel h3 
+{
   font-size: 20px;
   font-weight: bold;
 }
 
-.carousel p {
+.carousel p 
+{
   margin-top: auto ;
 }
 
-.projects {
+.card-title2
+{
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-text2
+{
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.projects 
+{
     text-align: center;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
+.aboutme 
+{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.thicker-border 
+{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.video-container 
+{
+    text-align: center; /* centers inline/inline-block elements like video and button */
+    margin-top: 20px;   /* optional: adds space above */
+    margin-bottom: 20px; /* optional: adds space below */
+}
+
+.aboutmetitle
+{
+    text-align: center; /* centers the title */
+    margin-top: 20px;   /* optional spacing above */
+    margin-bottom: 10px; /* optional spacing below */
+    font-weight: bold;
+}
 
 .clear
 {

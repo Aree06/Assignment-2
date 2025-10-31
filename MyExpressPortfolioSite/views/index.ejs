@@ -1,12 +1,20 @@
 <%- include partials/header  %>
 <%- include partials/main_nav %>
-        <div class="welcome"> <!-- Div element with class "welcome" for styling -->
-            <p> <!-- Paragraph element to hold welcome text -->
-                Welcome to my portfolio website! Here, you can learn about me, explore my projects, and get in touch.
-                Feel free to navigate through the different sections using the menu above.
-            </p>
+<h1 class="homeTitle">Home Page</h1>
+    <div class="homepage">
+        <div class="card mx-auto" style="max-width: 640px; max-width: 700px;">
+            <div class="row g-0">
+                 <div class="col-md-4">
+                    <img src="/Asset/images/Hello.png" class="img-fluid rounded-start" alt="helloPic">
+                 </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Welcome</h5>
+                        <p class="card-text">Hello! My name is Areeba Alam. Welcome to my portfolio website. 
+                        Here, you can find information About Me, my Projects, and how to Contact Me.
+                        </p>
+                </div>
+            </div>
         </div>
-
-        <div class="clear"></div> <!-- Clearfix to ensure proper layout after floating elements -->
-    
+    </div>
 <%- include partials/footer %>
