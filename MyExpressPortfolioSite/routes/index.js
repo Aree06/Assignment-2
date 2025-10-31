@@ -26,4 +26,8 @@ router.get('/contactme', function(req, res, next) {
   res.render('contactme', { title: 'Contact Me' });
 });
 
+router.get('/video',function(req, res, next)  {
+  res.render('video', { title: 'Contact Me' });
+});
+
 module.exports = router;

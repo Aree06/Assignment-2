@@ -80,16 +80,17 @@ a {
 .projects 
 {
     text-align: center;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bold;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
 .aboutme 
 {
     text-align: center;
-    font-size: 36px;
-    margin-top: 20px;
+    font-size: 48px;
+    margin-top: 100px;
     font-weight: bold;
 }
 
@@ -101,17 +102,24 @@ a {
 
 .video-container 
 {
-    text-align: center; /* centers inline/inline-block elements like video and button */
-    margin-top: 20px;   /* optional: adds space above */
-    margin-bottom: 20px; /* optional: adds space below */
+    text-align: center; 
+    margin-top: 20px;   
+    margin-bottom: 20px; 
+}
+
+.button2
+{
+  background-color: #ecbc5e;
+  color: black;
 }
 
 .aboutmetitle
 {
-    text-align: center; /* centers the title */
-    margin-top: 20px;   /* optional spacing above */
-    margin-bottom: 10px; /* optional spacing below */
+    text-align: center; 
+    margin-top: 150px;   
+    margin-bottom: 10px; 
     font-weight: bold;
+    font-size: 36px;
 }
 
 .clear
