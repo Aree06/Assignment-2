@@ -1,39 +1,48 @@
 <%- include partials/header %>
 <%- include partials/main_nav %>
 
-<script src="/Scripts/form_validation"></script>
-<form class="row g-3 needs-validation" novalidate>
-  <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">First name</label>
-    <input type="text" class="form-control" id="firstName"  required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-    <div class="invalid-feedback">
-        Please Enter your First Name.
-      </div>
+<h1 class="contactme text-center my-4">Contact Me</h1>
 
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="LastName"  required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-
-    <div class="invalid-feedback">
-        Please Enter Your Last Name.
-      </div>
-
+<!-- Contact Form -->
+<div class="container mb-5">
+  <form class="needs-validation" novalidate>
+    
+    <!-- First Name -->
     <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Any Comments:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <label for="firstName" class="form-label">First Name</label>
+      <input type="text" class="form-control" id="firstName" required>
+      <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please enter your first name.</div>
     </div>
 
-  <!-- Submit Button -->
-  <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit</button>
-  </div>
-</form>
+    <!-- Last Name -->
+    <div class="mb-3">
+      <label for="lastName" class="form-label">Last Name</label>
+      <input type="text" class="form-control" id="lastName" required>
+      <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please enter your last name.</div>
+    </div>
+
+    <!-- Email -->
+    <div class="mb-3">
+      <label for="email" class="form-label">Email Address</label>
+      <input type="email" class="form-control" id="email" required>
+      <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please enter a valid email address.</div>
+    </div>
+
+    <!-- Comments -->
+    <div class="mb-3">
+      <label for="comments" class="form-label">Any Comments:</label>
+      <textarea class="form-control" id="comments" rows="3"></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="text-center">
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </div>
+  </form>
+</div>
 
 <%- include partials/footer %>
+<script src="/Script/form_validation.js"></script>
