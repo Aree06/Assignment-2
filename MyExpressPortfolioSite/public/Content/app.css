@@ -68,14 +68,13 @@ a {
 .card-title2
 {
   font-weight: bold;
-  text-align: center;
 }
 
-.card-text2
+.card-body2
 {
   text-align: center;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-top: 20px;
+  margin-right: 60px;
 }
 
 .projects 
