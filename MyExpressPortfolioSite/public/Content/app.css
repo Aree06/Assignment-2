@@ -1,170 +1,170 @@
 body {
-  padding: 50px;
-  font: 16px "times new roman", sans-serif;
-  background-color: #f0d9aa;
+  padding: 50px; /* Add padding around the body */
+  font: 16px "times new roman", sans-serif; /* Set font family and size */
+  background-color: #f0d9aa; /* Light beige background color */
 }
 
 a {
-  color: #00B7FF;
+  color: #00B7FF; /* Bright blue color for links */
 }
 
 .homeTitle
 {
-    text-align: center;
-    font-size: 48px;
-    font-weight: bold;
-    margin-top: 210px;
+    text-align: center; /* Center align the text */
+    font-size: 48px; /* Large font size */
+    font-weight: bold; /* Bold font weight */
+    margin-top: 210px; /* Top margin */
 }
 
 .homepage
 {
-    text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    text-align: center; /* Center align the text */
+    font-size: 18px; /* Font size */
+    margin-top: 20px; /* Top margin */
+    margin-bottom: 30px; /* Bottom margin */
 }
 
 .homepage .card 
 {
-  border: 3px solid #ecbc5e;
-}
+  border: 3px solid #ecbc5e; /* Gold border color */
+} 
 
 .card-title
 {
-  font-weight: bold;
+  font-weight: bold; /* Bold font weight */
 }
 
 .card-body
 {
-  text-align: center;
-  margin-top: 40px;
+  text-align: center; /* Center align the text */
+  margin-top: 40px; /* Top margin */
 }
 
 .carousel 
 {
-  background-color: #ecbc5e;; 
+  background-color: #ecbc5e;;  /* Gold background color */
 }
 
 .carousel .box
 {
-  color:black
+  color:black ; /* Black text color */
 }
 
 .carousel .box 
 {
-  max-width: 900px;    /* wider box */
-  margin: 0 auto;      /* center it */
-  text-align: center;  
-  padding: 60px 40px;  /* more space inside */
-  font-size: 18px;    /* slightly larger text */
+  max-width: 900px; /* increased max width */
+  margin: 0 auto; /* center horizontally */
+  text-align: center; /* center text */
+  padding: 60px 40px; /* increased padding */
+  font-size: 18px; /* larger font size */
 }
 
 .carousel h3 
 {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 20px;  /* larger font size */
+  font-weight: bold;  /* bold font weight */
 }
 
 .carousel p 
 {
-  margin-top: auto ;
+  margin-top: auto ; /* automatic top margin */
 }
 
 .card-title2
 {
-  font-weight: bold;
+  font-weight: bold; /* Bold font weight */
 }
 
 .card-body2
 {
-  text-align: center;
-  margin-top: 20px;
-  margin-right: 60px;
+  text-align: center; /* Center align the text */
+  margin-top: 20px; /* Top margin */
+  margin-right: 60px; /* Right margin */
 }
 
 .projects 
 {
-    text-align: center;
-    font-size: 48px;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    text-align: center; /* Center align the text */
+    font-size: 48px; /* Large font size */
+    font-weight: bold; /* Bold font weight */
+    margin-top: 50px; /* Top margin */
+    margin-bottom: 30px; /* Bottom margin */
 }
 
 .aboutme 
 {
-    text-align: center;
-    font-size: 48px;
-    margin-top: 100px;
-    font-weight: bold;
+    text-align: center; /* Center align the text */
+    font-size: 48px; /* Large font size */
+    margin-top: 100px; /* Top margin */
+    font-weight: bold; /* Bold font weight */
 }
 
 .thicker-border 
 {
-    border: 3px solid #ecbc5e;
-    border-radius: 5px;
+    border: 3px solid #ecbc5e; /* Gold border color */
+    border-radius: 5px; /* Rounded corners */
 }
 
 .video-container 
 {
-    text-align: center; 
-    margin-top: 20px;   
-    margin-bottom: 20px; 
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Top margin */ 
+    margin-bottom: 20px; /* Bottom margin */
 }
 
 .button2
 {
-  background-color: #ecbc5e;
-  color: black;
+  background-color: #ecbc5e; /* Gold background color */
+  color: black; /* Black text color */
 }
 
 .aboutmetitle
 {
-    text-align: center; 
-    margin-top: 150px;   
-    margin-bottom: 10px; 
-    font-weight: bold;
-    font-size: 36px;
+    text-align: center; /* Center align the text */
+    margin-top: 150px; /* Top margin */   
+    margin-bottom: 10px;  /* Bottom margin */ 
+    font-weight: bold; /* Bold font weight */
+    font-size: 36px; /* Large font size */
 }
 
 .contactme
 {
-  text-align: center;
-  font-size: 48px;
-  font-weight: bold;
-  margin-top: 40px; 
-}
+  text-align: center; /* Center align the text */
+  font-size: 48px; /* Large font size */
+  font-weight: bold; /* Bold font weight */
+  margin-top: 40px; /* Top margin */
+} 
 
 .headerpic
 {
-  border-radius: 50%;
+  border-radius: 50%; /* Circular image */
 } 
 
 .navbar-brand
 {
-  margin-left: 10px;
+  margin-left: 10px; /* Left margin */
 }
 
 .links a
 { 
-  display:inline-block;
-  color: white;         
-  text-decoration: none; 
+  display:inline-block; /* Display links inline */
+  color: white; /* White text color */        
+  text-decoration: none; /* Remove underline from links */
 
 }
 
 .footerbtns
 {
-  margin-right: 800px;
+  margin-right: 800px; /* Right margin */
 }
 
 .footer-container {
-  position: relative;
-  width: 100%;
-  height: 60px;
+  position: relative; /* Relative positioning */
+  width: 100%; /* Full width */
+  height: 60px; /* Set footer height */
 }
 
 .clear
 {
-    clear: both;
+    clear: both; /* Clear floats */
 }

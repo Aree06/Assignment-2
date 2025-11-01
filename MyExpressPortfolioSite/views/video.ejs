@@ -1,9 +1,9 @@
-<%- include partials/header  %>
-<%- include partials/main_nav %>
+<%- include partials/header  %> <!-- Include the header partial -->
+<%- include partials/main_nav %> <!-- Include the main navigation partial -->
 
-<h4 class="aboutmetitle"> About Me: Video</h4>
+<h4 class="aboutmetitle"> About Me: Video</h4> <!-- Title for the About Me Video section -->
     <script src="Script/video.js" defer></script> <!-- Link to the JavaScript file -->
-    <div class= "video-container">
+    <div class= "video-container"> <!-- Container for the video and button -->
             <video  class="vid" id="video" controls width="520" height="300" autoplay muted loop poster="/Asset/images/image.png" preload="auto"> <!-- Video element to embed a video in the web page -->
                 <source src="Asset/video/AboutMe.mp4" type="video/mp4"> <!-- Source of the video file in MP4 format -->
             </video>
@@ -12,4 +12,4 @@
             <button class="button2" onclick="playPause()">Play or pause the video</button>
         </div>
 
-<%- include partials/footer %>
+<%- include partials/footer %> <!-- Include the footer partial -->
