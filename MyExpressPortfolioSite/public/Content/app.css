@@ -130,6 +130,24 @@ a {
   margin-top: 20px; 
 }
 
+.headerpic
+{
+  border-radius: 50%;
+} 
+
+.navbar-brand
+{
+  margin-left: 10px;
+}
+
+.links a
+{ 
+  display:inline-block;
+  color: white;         
+  text-decoration: none; 
+
+}
+
 .clear
 {
     clear: both;
