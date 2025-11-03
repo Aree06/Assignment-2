@@ -132,8 +132,28 @@ a {
   text-align: center; /* Center align the text */
   font-size: 48px; /* Large font size */
   font-weight: bold; /* Bold font weight */
-  margin-top: 40px; /* Top margin */
+  margin-top: 70px; /* Top margin */
 } 
+
+.form-label 
+{
+  display: block;
+  text-align: center;  /* centers label text */
+  margin-bottom: 4px;
+}
+
+.invalid-feedback,
+.valid-feedback {
+  max-width: 500px;      /* same width as inputs */
+  margin: 10px auto 0; /* center them below the inputs */
+  text-align: left;      /* left align feedback text */
+}
+
+.form-control 
+{
+  max-width: 500px;   /* Set max width for inputs */
+  margin: 0 auto;     /* Centers the inputs in the form */
+}
 
 .headerpic
 {
