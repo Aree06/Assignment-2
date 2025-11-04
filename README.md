@@ -35,7 +35,7 @@ Footer
 Resources used: 
 For this project I used bootstap to style and structure the layout of each page, inlcuding naviagtion, caraousles, and form validation 
 I used fontawesome to  add icons to navigation links and buttons for btter visual presentation
-I also had to refer to some external sources to ...
+I also had to refer to some external sources to figure out how to bold some text and how to get rid of the blue underline form links
 I used Stack OverFlow to find a solution for removing the default blue underline from hyperlinks
 I also used w3schools to learn how to bold titles and round the profile image in the header
 
@@ -45,6 +45,7 @@ CSS font-weight Property. CSS font-weight property. (n.d.). https://www.w3school
 Find icons with the perfect look & feel. Font Awesome. (n.d.). https://fontawesome.com/icons 
 Mark Otto, J. T. (n.d.). Get started with bootstrap. · Bootstrap v5.3. https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
 Remove blue underline from link. Stack Overflow. (2010, May 7). https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link 
+
 
 
 
